@@ -17,15 +17,15 @@
     <!-- All css Here -->
 
     <!-- All plugins css -->
-    <link rel="stylesheet" href="./Assets/css/allplugins.css">
+    <link rel="stylesheet" href="./WeddingInvitation/Assets/css/allplugins.css">
     <!-- Style css -->
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./WeddingInvitation/Assets/style.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <link rel="stylesheet" href="./WeddingInvitation/Assets/css/responsive.css">
 
     <!-- Customization css -->
     <!--If u need any change then use this css file-->
-    <link rel="stylesheet" href="Assets/css/custom.css">
+    <link rel="stylesheet" href="./WeddingInvitation/Assets/css/custom.css">
     <!-- Modernizr JavaScript -->
 
     <script src="Assets/js/vendor/modernizr-2.8.3.min.js"></script>

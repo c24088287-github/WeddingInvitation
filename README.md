@@ -1,2 +1,0 @@
-# WeddingInvitation
-Krish Wed Sree

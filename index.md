@@ -17,18 +17,18 @@
     <!-- All css Here -->
 
     <!-- All plugins css -->
-    <link rel="stylesheet" href="assets/css/allplugins.css">
+    <link rel="stylesheet" href="Assets/css/allplugins.css">
     <!-- Style css -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="Assets/style.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="Assets/css/responsive.css">
 
     <!-- Customization css -->
     <!--If u need any change then use this css file-->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="Assets/css/custom.css">
     <!-- Modernizr JavaScript -->
 
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="Assets/js/vendor/modernizr-2.8.3.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -137,7 +137,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="persons">
-                        <figure><img src="assets/images/about/1.jpeg" alt="" />
+                        <figure><img src="Assets/images/about/1.jpeg" alt="" />
                         </figure>
                         <div class="content">
                             <h2>Krishnaraj </h2>
@@ -155,13 +155,13 @@
                     </div>
 
                     <div class="con-img mr-t60">
-                        <figure><img src="assets/images/about/sm-1.jpg" alt="" /></figure>
+                        <figure><img src="Assets/images/about/sm-1.jpg" alt="" /></figure>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-12">
                     <div class="persons">
-                        <figure><img src="assets/images/about/2.jpeg" alt="" />
+                        <figure><img src="Assets/images/about/2.jpeg" alt="" />
                         </figure>
                         <div class="content">
                             <h2> Sreedevi</h2>
@@ -249,7 +249,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="event-img text-center">
                         <figure>
-                            <img src="assets/images/banner/1.jpg" style="height: 13cm;" alt="" />
+                            <img src="Assets/images/banner/1.jpg" style="height: 13cm;" alt="" />
                         </figure>
                     </div>
                 </div>
@@ -275,7 +275,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="banner-con">
-                        <h2>We are going to...<span><img src="assets/images/banner/ico.png" alt="" /></span>
+                        <h2>We are going to...<span><img src="Assets/images/banner/ico.png" alt="" /></span>
                             Celebrate
                             Our Love.</h2>
                         <br>
@@ -327,7 +327,7 @@
                 <div class="col-md-5 col-sm-6">
                     <div class="contact-info">
                         <div class="info-list">
-                            <div class="info-ico"><img src="assets/images/icons/2.png" alt="" /></div>
+                            <div class="info-ico"><img src="Assets/images/icons/2.png" alt="" /></div>
                             <div class="info-content">
                                 <h2>Location</h2>
                                 <p>S.A.K. Bharath Mahal, <br>Palayapalayam, Erode </p>
@@ -335,7 +335,7 @@
                         </div>
 
                         <div class="info-list">
-                            <div class="info-ico"><img src="assets/images/icons/4.png" alt="" /></div>
+                            <div class="info-ico"><img src="Assets/images/icons/4.png" alt="" /></div>
                             <div class="info-content">
                                 <h2>Contact</h2>
                                 <p>Groom
@@ -370,16 +370,16 @@
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="gallery">
                             <figure>
-                                <a href="assets/images/gallery/1.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/1.jpg" alt="" /></a>
+                                <a href="Assets/images/gallery/1.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/1.jpg" alt="" /></a>
                             </figure>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="gallery">
                             <figure>
-                                <a href="assets/images/gallery/2.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/2.jpg" alt="" /></a>
+                                <a href="Assets/images/gallery/2.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/2.jpg" alt="" /></a>
                             </figure>
                         </div>
                     </div>
@@ -388,8 +388,8 @@
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="gallery">
                             <figure>
-                                <a href="assets/images/gallery/5.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/5.jpg" alt="" /></a>
+                                <a href="Assets/images/gallery/5.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/5.jpg" alt="" /></a>
                             </figure>
                         </div>
                     </div>
@@ -397,44 +397,11 @@
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="gallery">
                             <figure>
-                                <a href="assets/images/gallery/6.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/6.jpg" alt="" /></a>
+                                <a href="Assets/images/gallery/6.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/6.jpg" alt="" /></a>
                             </figure>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 pd-0">
-                    <div class="col-md-12 col-sm-6 col-xs-12">
-
-                        <div class="gallery">
-
-                            <figure>
-
-                                <a href="assets/images/gallery/9.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/9.jpg" alt="" /></a>
-
-                            </figure>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-12 col-sm-6 col-xs-12">
-
-                        <div class="gallery">
-
-                            <figure>
-
-                                <a href="assets/images/gallery/10.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/10.jpg" alt="" /></a>
-
-                            </figure>
-
-                        </div>
-
-                    </div>
-
-
                 </div>
                 <div class="col-md-3 col-sm-12 col-xs-12 pd-0">
                     <div class="col-md-12 col-sm-6 col-xs-12">
@@ -443,8 +410,8 @@
 
                             <figure>
 
-                                <a href="assets/images/gallery/13.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/13.jpg" alt="" /></a>
+                                <a href="Assets/images/gallery/9.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/9.jpg" alt="" /></a>
 
                             </figure>
 
@@ -458,8 +425,41 @@
 
                             <figure>
 
-                                <a href="assets/images/gallery/14.jpg"><span><i class="fas fa-search"></i></span><img
-                                        src="assets/images/gallery/14.jpg" alt="" /></a>
+                                <a href="Assets/images/gallery/10.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/10.jpg" alt="" /></a>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12 pd-0">
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+
+                        <div class="gallery">
+
+                            <figure>
+
+                                <a href="Assets/images/gallery/13.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/13.jpg" alt="" /></a>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+
+                        <div class="gallery">
+
+                            <figure>
+
+                                <a href="Assets/images/gallery/14.jpg"><span><i class="fas fa-search"></i></span><img
+                                        src="Assets/images/gallery/14.jpg" alt="" /></a>
 
                             </figure>
 
@@ -480,31 +480,31 @@
 
     <!-- All JavaScript Here -->
     <!-- jQuery latest version -->
-    <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="Assets/js/vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="Assets/js/bootstrap.min.js"></script>
     <!-- Owl.carousel JavaScript -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="Assets/js/owl.carousel.min.js"></script>
     <!-- Bxslider JavaScript -->
-    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script src="Assets/js/jquery.bxslider.min.js"></script>
     <!-- Magnific Popup JavaScript -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="Assets/js/jquery.magnific-popup.min.js"></script>
     <!-- meanmenu JavaScript -->
-    <script src="assets/js/jquery.meanmenu.js"></script>
+    <script src="Assets/js/jquery.meanmenu.js"></script>
     <!-- jarallax JavaScript -->
-    <script src="assets/js/jarallax.min.js"></script>
+    <script src="Assets/js/jarallax.min.js"></script>
     <!-- jQuery-ui JavaScript -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="Assets/js/jquery-ui.min.js"></script>
     <!-- Progressbar Animation JavaScript -->
-    <script src="assets/js/jquery.downCount.js"></script>
+    <script src="Assets/js/jquery.downCount.js"></script>
     <!-- masonry JavaScript -->
-    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="Assets/js/masonry.pkgd.min.js"></script>
     <!-- wow JavaScript -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="Assets/js/wow.min.js"></script>
     <!-- Plugins JavaScript -->
-    <script src="assets/js/plugins.js"></script>
+    <script src="Assets/js/plugins.js"></script>
     <!-- Init JavaScript -->
-    <script src="assets/js/main.js"></script>
+    <script src="Assets/js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
         // // Start clock

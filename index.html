@@ -38,12 +38,18 @@
     <script src='/google_analytics_auto.js'></script>
 </head>
 
-<body oncontextmenu="return false">
+<!-- Turn off inspect    <body oncontextmenu="return false">    -->
+
+<body>
     <!-- preloader Start -->
     <div id="preloader">
         <div id="status"><img src="preloader.gif" id="preloader_image" alt="loader">
         </div>
     </div>
+
+    <audio id="sound1" src="assets\music\vv.mp3" preload="auto" autoplay loop></audio>
+    <img src="assets\images\icons\heart.gif" class="center" style="height: 200px;width: 200px;"
+        onclick="document.getElementById('sound1').play();"></img>
 
     <!--Slider area start here-->
     <section section-scroll='0' class="slider-area">
@@ -188,37 +194,30 @@
 
                 </div>
                 <div class="col-md-6 col-sm-12">
+                    <div class="wd_timer_wrapper">
+                        <div class="counter" id="clockdiv">
+                            <ul>
+                                <li><span class="days">00</span>
+                                    <p>Days</p>
+                                </li>
 
-                    <div class="counter">
+                                <li><span class="hours">00</span>
+                                    <p>Hours</p>
+                                </li>
 
-                        <ul>
+                                <li><span class="minutes">00</span>
+                                    <p>Minutes</p>
+                                </li>
 
-                            <li><span class="days">00</span>
-                                <p>Days</p>
-                            </li>
-
-                            <li><span class="hours">00</span>
-                                <p>hours</p>
-                            </li>
-
-                            <li><span class="minutes">00</span>
-                                <p>minutes</p>
-                            </li>
-
-                            <li><span class="seconds">00</span>
-                                <p>seconds</p>
-                            </li>
-
-                        </ul>
-
+                                <li><span class="seconds">00</span>
+                                    <p>Seconds</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
 
@@ -242,14 +241,16 @@
                         <h2> Reception </h2>
                         <h3>Save the date</h3>
                         <button style="color: white; background-color: crimson;">23 Oct 2021</button>
-                        <button style="color:crimson; background-color:white;">6:00 pm</button>
+                        <button style="color:crimson; background-color:white;">6:00 PM</button>
                         <h3>At S.A.K Bharath Mahal,<br>Erode</h3>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="event-img text-center">
                         <figure>
-                            <img src="assets/images/banner/1.jpg" style="height: 13cm;" alt="" />
+                            <img src="assets/images/event_img.gif" style="height: 10cm;" />
+                            <!-- <img src="assets/images/banner/1.jpg" style="height: 13cm;" alt="" /> -->
+
                         </figure>
                     </div>
                 </div>
@@ -258,7 +259,7 @@
                         <h2> Muhurtham</h2>
                         <h3> Save the date</h3>
                         <button style="color: white; background-color: crimson;">24 Oct 2021</button>
-                        <button style="color:crimson; background-color:white;">9 am - 10.30 am</button>
+                        <button style="color:crimson; background-color:white;">9 - 10.30 AM</button>
                         <h3>At S.A.K Bharath Mahal,<br>Erode</h3>
                     </div>
                 </div>
@@ -507,60 +508,10 @@
     <script src="assets/js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
-        // // Start clock
-
-        // var deadline = new Date("oct 24, 2021").getTime();
-
-        // var x = setInterval(function () {
-
-        //     var now = new Date().getTime();
-        //     var t = deadline - now;
-        //     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        //     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        //     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        //     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        //     document.getElementById("day_1").innerHTML = days;
-        //     document.getElementById("hour_1").innerHTML = hours;
-        //     document.getElementById("minute_1").innerHTML = minutes;
-        //     document.getElementById("second_1").innerHTML = seconds;
-        //     if (t < 0) {
-        //         clearInterval(x);
-        //         document.getElementById("demo_1").innerHTML = "TIME UP";
-        //         document.getElementById("day_1").innerHTML = '0';
-        //         document.getElementById("hour_1").innerHTML = '0';
-        //         document.getElementById("minute_1").innerHTML = '0';
-        //         document.getElementById("second_1").innerHTML = '0';
-        //     }
-        // }, 1000);
-
-        // // End Clock
-        function initialize() {
-            var map;
-            var bounds = new google.maps.LatLngBounds();
-            var mapOptions = {
-                mapTypeId: 'roadmap',
-                styles: [
-                    { "featureType": "water", "elementType": "geometry", "stylers": [{ "color": "#d1d1d1" }, { "lightness": 17 }] },
-
-                    { "featureType": "landscape", "elementType": "geometry", "stylers": [{ "color": "#e1e1e1" }, { "lightness": 20 }] },
-
-                    { "featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{ "color": "#fff" }, { "lightness": 17 }] },
-
-                    { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{ "color": "#fff" }, { "lightness": 29 }, { "weight": 0.2 }] },
-
-                    { "featureType": "road.arterial", "elementType": "geometry", "stylers": [{ "color": "#fff" }, { "lightness": 18 }] },
-
-                    { "featureType": "road.local", "elementType": "geometry", "stylers": [{ "color": "#ffffff" }, { "lightness": 16 }] },
-
-                    { "featureType": "poi", "elementType": "geometry", "stylers": [{ "color": "#d6e9b9" }, { "lightness": 21 }] },
-
-                    { "featureType": "poi.park", "elementType": "geometry", "stylers": [{ "color": "#d6e9b9" }, { "lightness": 21 }] },
-
-                    { "elementType": "labels.text.fill", "stylers": [{ "saturation": 36 }, { "color": "#333333" }, { "lightness": 40 }] }, { "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit", "elementType": "geometry", "stylers": [{ "color": "#f2f2f2" }, { "lightness": 19 }] }, { "featureType": "administrative", "elementType": "geometry.fill", "stylers": [{ "color": "#d6e9b9" }, { "lightness": 20 }] }, { "featureType": "administrative", "elementType": "geometry.stroke", "stylers": [{ "color": "#d6e9b9" }, { "lightness": 17 }, { "weight": 1.2 }] }]
-
-            };
+        function playSound() {
+            var sound = document.getElementById("audio");
+            sound.play();
         }
-        google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
 </body>
